@@ -1,0 +1,16 @@
+
+header {
+    padding: 22px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+
+nav ul{
+    text-align: center;
+}
+nav a{
+    color: black;
+}
