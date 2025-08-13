@@ -1,16 +1,24 @@
 
 header {
     padding: 22px;
-    background-color: blueviolet;
+    background-color: #000524;
     border-radius: 10px;
 }
 h1{
     text-align: center;
+    color: aliceblue;
 }
 
 nav ul{
     text-align: center;
+    color: aliceblue;
 }
 nav a{
     color: black;
+    color: aliceblue;
+}
+body{
+    text-align: center;
+    background-color: #1c31a5;
+    color: aliceblue;
 }
