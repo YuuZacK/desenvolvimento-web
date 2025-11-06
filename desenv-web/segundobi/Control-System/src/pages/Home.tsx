@@ -22,7 +22,6 @@ import "../styles/Pricing.css"
 export function Home() {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
 
-
     return (
         <>
             <header className="container py-sm">
