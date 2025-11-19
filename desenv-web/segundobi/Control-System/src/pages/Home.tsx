@@ -19,6 +19,7 @@ import "../styles/Testimonials.css"
 import Check from "../assets/Check.svg"
 import "../styles/Pricing.css"
 import "../styles/Contact.css"
+import "../styles/Footer.css"
 
 export function Home() {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -403,6 +404,36 @@ export function Home() {
                 <div className="logo-column">
                     <img src={Logo} alt="Logo Puppy" width={220} height={80} />
                     <div className="social-links"></div>
+                </div>
+                <div className="footer-links">
+                    <div className="links-column">
+                        <h3>Empresa</h3>
+                        <ul>
+                            <li><a href="#">Sobre nós</a></li>
+                            <li><a href="#">Faça parte do time</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div className="links-column">
+                        <h3>Funcionalidades</h3>
+                        <ul>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Análise de dados</a></li>
+                            <li><a href="#">Boot Discord</a></li>
+                        </ul>
+                    </div>
+                    <div className="links-column">
+                        <h3>Recursos</h3>
+                        <ul>
+                            <li><a href="#">IOS & Android</a></li>
+                            <li><a href="#">Teste a Demo</a></li>
+                            <li><a href="#">Clientes</a></li>
+                            <li><a href="#">API</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="footer-bar">
+                    <p>Feito com Amor na aula de Programação WEB.</p>
                 </div>
             </footer>
         </>
