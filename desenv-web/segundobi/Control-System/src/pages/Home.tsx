@@ -18,6 +18,7 @@ import StarOne from "../assets/StarOne.svg"
 import "../styles/Testimonials.css"
 import Check from "../assets/Check.svg"
 import "../styles/Pricing.css"
+import "../styles/Contact.css"
 
 export function Home() {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -380,6 +381,30 @@ export function Home() {
                     </div>
                 </section>
             </section>
+            <section id="contact" className="container">
+                <header>
+                    <p>Envie sua dúvida</p>
+                    <h2>Entre em contato</h2>
+                    <p>Entre em contato, estamos disposto a tirar qualquer dúvida,
+                        seja um orçamento, uma dúvida técnica de algum de nossos produtos.
+                        Estamos à disposição para responder.
+                    </p>
+                </header>
+
+                <form>
+                    <input type="email" placeholder="Seu email" />
+                    <textarea placeholder="Motivo do contato"></textarea>
+                    <div className="btn-wrappper">
+                        <Button text="Enviar" />
+                    </div>
+                </form>
+            </section>
+            <footer id="footer">
+                <div className="logo-column">
+                    <img src={Logo} alt="Logo Puppy" width={220} height={80} />
+                    <div className="social-links"></div>
+                </div>
+            </footer>
         </>
     )
 }
