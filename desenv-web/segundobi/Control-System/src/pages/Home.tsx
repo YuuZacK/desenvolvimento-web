@@ -88,20 +88,18 @@ export function Home() {
             </header>
             <section id="hero">
                 <span className="desktop-only">
-                    <img src={HeroRectangleOne} alt="Imagem retângulo um" />
-                </span>
-                <span>
                     <img src={HeroRectangleTwo} alt="Imagem retângulo dois" />
                 </span>
+                <img src={HeroRectangleOne} alt="Imagem retângulo um" />
                 <div className="container content">
                     <p className="desktop-only">
                         Olá
                     </p>
-                    <h1>Pet Shop Puppy Pet Center: Cuidando de quem te faz feliz!</h1>
+                    <h1>Pet Shop Center: Cuidando de quem te faz feliz!</h1>
                     <p>"O lugar onde você encontra tudo o que precisa para retribuir o amor incondicional que seu pet lhe dá todos os dias."
                     </p>
                     <div className="flex gap-1">
-                        <span><Button text="Cadastre-se" /></span>
+                        <button className="btn-primary">Cadastre-se</button>
                         <span className="desktop-only">
                             <Button text="Veja mais" secondary />
                         </span>
